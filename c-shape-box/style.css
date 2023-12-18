@@ -1,0 +1,33 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 450px;
+  width: 450px;
+  padding: 40px;
+  border: 1px solid black;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.checked{
+  background: green;
+}

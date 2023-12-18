@@ -1,0 +1,21 @@
+body{
+  background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+}
+
+.container{
+  background: #FFFFFF;
+  max-width: 300px;
+  margin: 100px auto 0;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.star{
+  color: grey;
+  font-size: 38px;
+}
+
+.selected{
+  color: yellow !important ;
+}
