@@ -1,0 +1,36 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:30px;
+}
+
+.count{
+  font-size: 35px;
+}
+
+.btn{
+  height: 35px;
+  width: 35px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+.increment-btn{
+  background: rgb(17, 163, 17);
+  color: white;
+}
+
+.decrement-btn{
+  background: red;
+  color:black ;
+}
+
+.reset{
+  width: 80px;
+  height: 35px;
+  background: yellow;
+  border-radius: 8px;
+}
