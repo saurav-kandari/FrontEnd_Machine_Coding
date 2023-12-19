@@ -1,0 +1,46 @@
+.comment{
+  height: auto;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(222, 222, 222);
+  margin-top: 10px;
+}
+
+.cmmnt-body{
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.reply{
+  font-size: 14px;
+  color: rgb(84, 84, 233);
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.reply-input{
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+
+.input-field{
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.submit-btn{
+  height: 55px;
+  width: 100px;
+  background: #a1a2f5;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.comment-section:not(:first-child){
+  margin-left: 4rem ;
+}
