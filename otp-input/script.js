@@ -4,7 +4,6 @@ inputs.addEventListener("input",(e)=>{
   let target = e.target ;
   if(target.value != ""){
     let value = parseInt(target.value) ;
-    console.log(value) ;
     if(isNaN(value)){
       target.value = "" ;
     }else{
